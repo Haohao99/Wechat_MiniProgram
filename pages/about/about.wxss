@@ -1,0 +1,36 @@
+.info{
+  font-weight:bold;
+  font-size:30px;
+}
+.container{
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-banner{
+  width: 375rpx;
+  height: 375rpx;
+  border-radius: 20%;
+}
+
+.nav-default{
+  color: blue;
+}
+
+.nav-hover{
+  color: red;
+}
+
+
+.botton_text {
+  position: fixed;
+  text-align: center;
+  bottom: 30rpx;
+  font-size:10px;
+  left: 0;
+  right: 0;
+  color: rgb(105, 101, 101);
+}

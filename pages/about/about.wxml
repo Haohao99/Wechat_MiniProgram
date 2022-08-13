@@ -1,0 +1,13 @@
+
+
+<view class='container'>
+  <image class='about-banner'src = "/images/icons/icon.jpg"></image>
+  <text style="font-weight: bold; font-size: 45rpx;">好好刷真题</text>
+  <view>
+  <navigator url='/pages/daily/daily' style='display: inline;' open-type="switchTab" hover-class="nav-hover" class="nav-default">今日题目</navigator>
+  </view>
+  <text>每天一道考研英语真题</text>
+  <view>{{time}}</view>
+</view>
+<text class='botton_text'>Designed by Howard Hu specifically for Ruebing Xie</text>
+

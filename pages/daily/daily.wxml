@@ -1,0 +1,15 @@
+<view class='container'>
+  <text style="font-weight: bold; font-size: 45rpx;">每日一题</text>
+  <text>\n</text>
+  <block wx:for= "{{showJson}}" wx:key="item">
+    <text>{{item.id}}年真题</text>
+    <text user-select>{{item.question}} </text>
+    <text>\n</text>
+    <text>{{item.answer}}</text>
+    <text>\n</text>
+  <button bindtap="getexplanation" class="mini-btn" type="primary" size="mini">解析</button>
+  <text wx:if="{{getexp}}">{{item.explanation}}</text>
+  </block>
+</view>
+
+

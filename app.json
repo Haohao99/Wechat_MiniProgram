@@ -1,0 +1,33 @@
+{
+  "lazyCodeLoading": "requiredComponents",
+  "pages": [
+    "pages/about/about",
+    "pages/daily/daily"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "text": "每日一题",
+        "pagePath": "pages/daily/daily",
+        "iconPath": "images/icons/daily.png",
+        "selectedIconPath": "images/icons/daily-selected.png"
+      },
+      {
+        "text": "关于",
+        "pagePath": "pages/about/about",
+        "iconPath": "images/icons/about.png",
+        "selectedIconPath": "images/icons/about-selected.png"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#00f"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
